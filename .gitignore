@@ -1,0 +1,93 @@
+# Java build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Compressed archives
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+build/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# General build output
+out/
+bin/
+classes/
+generated/
+generated-sources/
+generated-test-sources/
+
+# IDE — IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+atlassian-ide-plugin.xml
+
+# IDE — Eclipse
+.project
+.classpath
+.settings/
+*.eclipse
+.factorypath
+
+# IDE — NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# IDE — VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Log files
+*.log
+logs/
+log/
+hs_err_pid*
+
+# Test reports
+surefire-reports/
+test-results/
+
+# Environment / secrets
+.env
+.env.local
+*.properties.local
